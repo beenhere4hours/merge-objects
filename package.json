@@ -1,7 +1,14 @@
 {
-  "name": "@beenhere4hours/merge-objects",
-  "version": "1.0.2",
-  "description": "Deep recursive merge of two objects",
-  "homepage": "https://github.com/beenhere4hours/merge-objects#README.md",
-  "url": "https://github.com/beenhere4hours/merge-objects/issues"
+    "name": "@beenhere4hours/merge-objects",
+    "version": "1.0.2",
+    "description": "Deep recursive merge of two objects",
+    "homepage": "https://github.com/beenhere4hours/merge-objects#README.md",
+    "url": "https://github.com/beenhere4hours/merge-objects/issues",
+    {
+        "license": "MIT"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/beenhere4hours/merge-objects.git"
+    }
 }
