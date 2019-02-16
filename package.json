@@ -1,13 +1,20 @@
 {
-    "author": "Daniel Masi",
-    "name": "@beenhere4hours/merge-objects",
-    "version": "1.0.4",
-    "description": "Deep recursive merge of two objects",
-    "homepage": "https://github.com/beenhere4hours/merge-objects#README.md",
-    "url": "https://github.com/beenhere4hours/merge-objects/issues",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/beenhere4hours/merge-objects.git"
-    }
+  "author": "Daniel Masi",
+  "name": "@beenhere4hours/merge-objects",
+  "version": "1.0.5",
+  "description": "Variadic deep recursive merge of objects",
+  "homepage": "https://github.com/beenhere4hours/merge-objects#README.md",
+  "url": "https://github.com/beenhere4hours/merge-objects/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beenhere4hours/merge-objects.git"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
