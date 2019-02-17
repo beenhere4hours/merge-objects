@@ -11,7 +11,7 @@ const object1 = {firstName: "John", lastName: "Doe", address: {street: "123 Main
 const object2 = {id: "1234567890", address: {state: "OH", zip: 44504}};
 const object3 = {attributes: {dob: "01-01-76", hair: "brown", eyes: "brown"}};
 
-mergeObjects(object1, object2, object3).should.eql(expectedResult);
+mergeObjects(object1, object2, object3);
 
 /*
 expected result
