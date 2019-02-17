@@ -1,7 +1,7 @@
 {
   "author": "Daniel Masi",
   "name": "@beenhere4hours/merge-objects",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Variadic deep recursive merge of objects",
   "homepage": "https://github.com/beenhere4hours/merge-objects#README.md",
   "url": "https://github.com/beenhere4hours/merge-objects/issues",
