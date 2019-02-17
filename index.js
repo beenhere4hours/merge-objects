@@ -6,7 +6,7 @@
  */
 exports.mergeObjects = function (target, ...objects) {
     for (let object of objects) {
-        combine(target, object)
+        combine(target, object);
     }
 
     return target;
