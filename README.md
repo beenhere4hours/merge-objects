@@ -1,5 +1,8 @@
+[![Build Status](https://travis-ci.org/beenhere4hours/merge-objects.svg?branch=master)](https://travis-ci.org/beenhere4hours/merge-objects)
+
 # merge-objects
 Variadic deep recursive merge of objects
+
 
 ```
 const mergeObjects = require("@beenhere4hours/merge-objects").mergeObjects
