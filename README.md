@@ -11,6 +11,7 @@ const object1 = {firstName: "John", lastName: "Doe", address: {street: "123 Main
 const object2 = {id: "1234567890", address: {state: "OH", zip: 44504}};
 const object3 = {attributes: {dob: "01-01-76", hair: "brown", eyes: "brown"}};
 
+// can accept a variable number of parameters, so add as many as you'd like
 mergeObjects(object1, object2, object3);
 
 /*
