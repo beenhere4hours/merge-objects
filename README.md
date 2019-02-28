@@ -10,6 +10,8 @@ Variadic deep recursive merge of objects
 
 ## Usage
 
+### merge multiple objects
+
 ```
 const mergeObjects = require("@beenhere4hours/merge-objects").mergeObjects
 
@@ -31,6 +33,17 @@ expected result
 };
 */
 
+```
+
+### deep copy object
+Create a new, deep copy, of an object that has the same properties and values, but is not the same object.
+```
+const mergeObjects = require("@beenhere4hours/merge-objects").mergeObjects
+
+const original = {firstName: "John", lastName: "Doe", address: {street: "123 Main St", city: "Youngstown"}};
+
+// pass in an object literal as the first param or target
+let copy = mergeObjects({}, original);
 
 ```
 
