@@ -1,7 +1,7 @@
 {
   "author": "Daniel Masi",
   "name": "@beenhere4hours/merge-objects",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Variadic deep recursive merge of objects",
   "homepage": "https://github.com/beenhere4hours/merge-objects#README.md",
   "url": "https://github.com/beenhere4hours/merge-objects/issues",
@@ -21,10 +21,11 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "jshint": "^2.10.1",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0"
   },
   "scripts": {
     "lint": "jshint index.js",
-    "test": "mocha"
+    "test": "nyc mocha"
   }
 }
